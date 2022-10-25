@@ -34,7 +34,8 @@ h3 {
 }
 
 .box {
-    border: 2px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
     display: inline-block;
     font-size: 4em;
     padding: 10px;
