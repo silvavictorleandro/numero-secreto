@@ -2,7 +2,7 @@ function verificaChuteValorValido(chute){
     const numero = +chute;
 
     if (chuteInvalido(numero)){
-        elementoChute.innerHTML += '<div>Tu é doido ou cego? É um número, meu véi</div>';
+        elementoChute.innerHTML += '<div>Valor inválido - fale um número</div>';
         return;
     }
 
@@ -17,6 +17,7 @@ function verificaChuteValorValido(chute){
         document.body.innerHTML = `
         <h2>Você acertou!</h2>
         <h3>O número secreto era ${numeroSecreto}</h3>
+        <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
         `
     } else if (numero > numeroSecreto) {
         elementoChute.innerHTML += `
@@ -36,3 +37,9 @@ function chuteInvalido(numero) {
 function numeroMaiorOuMenor(numero) {
     return numero > maiorValor || numero < menorValor;
 }
+
+document.body.addEventListener('click', e => {
+    if (e.target.id == 'jogar-novamente') {
+        window.location.reload()
+    }
+})
