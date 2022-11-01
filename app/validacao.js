@@ -2,8 +2,18 @@ function verificaChuteValorValido(chute){
     const numero = +chute;
 
     if (chuteInvalido(numero)){
+        if (chute.toUpperCase() === 'GAME OVER') {
+            document.body.innerHTML = 
+            `
+            <h2>Game Over!!</h2>
+            <h3>Pressione o botão para jogar novamente</h3>
+            <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
+            `
+            document.body.style.backgroundColor = 'black';
+        } else {
         elementoChute.innerHTML += '<div>Valor inválido - fale um número</div>';
         return;
+        }
     }
 
     if (numeroMaiorOuMenor(numero)) {
@@ -28,6 +38,7 @@ function verificaChuteValorValido(chute){
         <div>O número secreto é maior <i class="fa-sharp fa-solid fa-arrow-up"></i></div>
         `
     }
+    console.log(chute);
 }
 
 function chuteInvalido(numero) {
