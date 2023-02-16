@@ -1,4 +1,4 @@
-## <center>Número Secreto<br><br>
+## <center>Número Secreto<br>
 
 <h2>Jogo de adivinhação com reconhecimento de voz</h2><br>
 
