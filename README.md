@@ -7,8 +7,6 @@
 <img src="img/tela-3.png">
 <img src="img/tela-4.png">
 <img src="img/tela-5.png">
-<img src="img/tela-6.png">
-<img src="img/tela-7.png">
 <img src="img/tela-8.png">
 <img src="img/tela-9.png">
 <img src="img/tela-10.png">
