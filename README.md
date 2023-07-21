@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # <center>Número Secreto
+=======
+## <center>Número Secreto<br>
+>>>>>>> 3a9f2bf72b2d3b93905d5ec4a4b03934411f3bec
 
 ## <center>Jogo de adivinhação com reconhecimento de voz
 
@@ -11,8 +15,12 @@ Após abrir a página do jogo, verificar se o microfone está ativo e falar um n
 <img src="img/tela-3.png">
 <img src="img/tela-4.png">
 <img src="img/tela-5.png">
-<img src="img/tela-6.png">
-<img src="img/tela-7.png">
 <img src="img/tela-8.png">
 <img src="img/tela-9.png">
 <img src="img/tela-10.png">
+<<<<<<< HEAD
+=======
+<br>
+<br>
+<h2>Projeto desenvolvido com Javascript, HTML e CSS</h2>
+>>>>>>> 3a9f2bf72b2d3b93905d5ec4a4b03934411f3bec
